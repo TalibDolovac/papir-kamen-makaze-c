@@ -10,7 +10,10 @@
 
 void pkm(void) 
 {
-	srand( time(NULL) );
+  system("color 04");
+  system("cls");	
+  
+  srand( time(NULL) );
   
   int player_throw = 0;
   int ai_throw = 0;
